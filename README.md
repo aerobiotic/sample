@@ -1,3 +1,3 @@
 # sample
-Hello  - This is my first commit.
+Some sample code to talk about.
 
