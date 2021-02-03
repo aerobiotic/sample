@@ -1,4 +1,4 @@
-package org.jxfs.app;
+package org.jxfs;
 
 import java.util.Arrays;
 
@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 /**
- * Hello world!
+ * Hello weather world!
  *
  */
 @SpringBootApplication
