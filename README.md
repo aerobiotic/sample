@@ -1,6 +1,6 @@
 # sample
 Some sample code to talk about.
-
+```
 Stand it up. 
 docker network create --driver bridge app_network
 docker volume create serviceB_volume
@@ -15,3 +15,4 @@ docker stop serviceA serviceB
 docker rm serviceA serviceB
 docker volume rm serviceB_volume
 docker network rm app_network
+```
