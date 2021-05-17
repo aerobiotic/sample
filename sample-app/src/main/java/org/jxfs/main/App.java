@@ -1,12 +1,7 @@
-package org.jxfs;
+package org.jxfs.main;
 
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 
-import org.jxfs.events.IWeatherEventListener;
-import org.jxfs.events.WeatherEvent;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
