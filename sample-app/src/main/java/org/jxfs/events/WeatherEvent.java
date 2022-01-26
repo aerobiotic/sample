@@ -7,7 +7,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @Getter
 @ToString
-public class WeatherEvent {
+public final class WeatherEvent {
 	
 	  private WeatherType type;
 	  private WeatherSeverity severity;
