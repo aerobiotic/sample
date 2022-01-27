@@ -6,14 +6,16 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Map;
 
+import org.springframework.stereotype.Component;
+
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class EventPublisher implements IWeatherEventListener {
+@Component
+public class EventPublisher  {
 	  Map<WeatherEvent, Collection<IWeatherEventListener>> listeners = new HashMap<WeatherEvent, Collection<IWeatherEventListener>>(); 
 
-	  @Override 
-	  public synchronized void eventReceived(WeatherEvent event) {
+	  public synchronized void publishEvent(WeatherEvent event) {
 	      for (IWeatherEventListener listener : listeners.get(event)){ 
 	          listener.eventReceived(event); 
 	      }
