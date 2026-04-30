@@ -1,3 +1,5 @@
+This repository contains sample code used for my own purposes. I can use it, but it's not fit for any other purpose. 
+
 # sample
 Some sample code to talk about.
 ```
